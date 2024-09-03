@@ -1,0 +1,32 @@
+{
+  "name": "testKoa",
+  "version": "1.0.0",
+  "description": "技术测试",
+  "main": "index.js",
+  "author": {
+    "name": "xuzhiwei",
+    "email": "xuzhiwei@ctrip.com"
+  },
+  "scripts": {
+    "dev": "node index.js"
+  },
+  "dependencies": {
+    "@koa/cors": "^5.0.0",
+    "jsonwebtoken": "^9.0.2",
+    "koa": "^2.15.3",
+    "koa-bodyparser": "^4.4.1",
+    "koa-router": "^12.0.1",
+    "md5": "^2.3.0",
+    "mysql2": "^3.11.0",
+    "sequelize": "^6.37.3"
+  },
+  "config": {
+    "port": 5388,
+    "dev-port": 5389,
+    "qconfig": [
+      "carbon-activity.json",
+      "202309-pdd-activity.json"
+    ],
+    "env": "fws"
+  }
+}
